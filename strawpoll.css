@@ -146,6 +146,7 @@ opacity: 0;
 }
 
 .custom .credits {
+    display:none;
     opacity: 0;
     height: 0;
 }
