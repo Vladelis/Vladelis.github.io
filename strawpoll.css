@@ -18,6 +18,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
     /*background-size: contain;*/
     transition: opacity 1s;
     padding: 10px;
+    background: gray;
 
     font-family: Montserrat;
 
@@ -98,6 +99,7 @@ opacity: 0;
 }
 
 .custom .options li.question {
+    display:none;
     padding: 5px 53px;
     white-space: normal;
     clear: both;
@@ -107,6 +109,7 @@ opacity: 0;
     position: relative;
 }
 .custom .options li.help {
+    display: none;
     overflow: hidden;
     height: 0;
     font-size:20px;
@@ -121,18 +124,28 @@ opacity: 0;
     right: 0;
 }
 .custom .options li .number {
+    display: none;
     padding: 5px 10px;
     position: absolute;
     top: 17px;
     left: 10px;
     font-size: 35px;
 }
+
 .custom .options li .bar {
     background: #1E0082;
     height: 12px;
     margin-top: 5px;
     padding:2px;
 }
+
+.custom .highest li .bar {
+    background: red;
+    height: 12px;
+    margin-top: 5px;
+    padding:2px;
+}
+
 .custom .options li .bar .bar-inner {
     background: #fff;
     height: 100%;
@@ -141,6 +154,7 @@ opacity: 0;
     position: relative;
 }
 .custom .options li .text {
+    display:none;
     line-height: 1.3;
     font-size:18px;
 }
