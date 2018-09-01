@@ -13,12 +13,11 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 .custom {
     /*background: url(bg.png) no-repeat;*/
-    width: 570px;
+    width: 1200px;
     /*background: linear-gradient(to bottom right, #FF0046, #FD008B);*/
     /*background-size: contain;*/
     transition: opacity 1s;
     padding: 10px;
-    background: gray;
 
     font-family: Montserrat;
 
@@ -87,8 +86,8 @@ opacity: 0;
     border: 1px;
     color: #fff;
     text-overflow: ellipsis;
-    padding-right: 55px;
-    padding-left: 55px;
+    padding-right: 127px;
+    padding-left: 127px;
     font-size: 15px;
     font-weight: 700;
 }
@@ -119,9 +118,11 @@ opacity: 0;
     display: block;
 }
 .custom .options li .procent {
+    font-size:33px;
     position: absolute;
-    top: 46px;
-    right: 0;
+    top: 24px;
+    left: 0;
+    color: #0097DE;
 }
 .custom .options li .number {
     display: none;
@@ -133,18 +134,25 @@ opacity: 0;
 }
 
 .custom .options li .bar {
-    background: #1E0082;
-    height: 12px;
+    background: #E83D3D;
+    height: 40px;
     margin-top: 5px;
-    padding:2px;
 }
 
-.custom .options li.highest .bar {
-    background: red;
+li[class*="option"]:last-of-type .bar{
+    display: none;
 }
+
+li[class*="option"]:last-of-type .procent{
+    left: auto;
+    right: 0;
+    top: -60px;
+    color: #E83D3D;
+}
+
 
 .custom .options li .bar .bar-inner {
-    background: #fff;
+    background: #0097DE;
     height: 100%;
     width: 0;
     transition: width 1s;
