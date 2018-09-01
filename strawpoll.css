@@ -86,8 +86,8 @@ opacity: 0;
     border: 1px;
     color: #fff;
     text-overflow: ellipsis;
-    padding-right: 127px;
-    padding-left: 127px;
+    padding-right: 150px;
+    padding-left: 150px;
     font-size: 15px;
     font-weight: 700;
 }
@@ -118,7 +118,7 @@ opacity: 0;
     display: block;
 }
 .custom .options li .procent {
-    font-size:33px;
+    font-size:40px;
     position: absolute;
     top: 24px;
     left: 0;
