@@ -139,11 +139,8 @@ opacity: 0;
     padding:2px;
 }
 
-.custom .highest li .bar {
+.custom .options li.highest .bar {
     background: red;
-    height: 12px;
-    margin-top: 5px;
-    padding:2px;
 }
 
 .custom .options li .bar .bar-inner {
