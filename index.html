@@ -107,16 +107,16 @@
         </div>
     </div>
     <script>
-        // setTimeout(function() {
-        //     $(".img1").fadeOut(1000, function() {
-        //         $(".img2").fadeIn(1000);
-        //     });
-        // }, 8000);
-        // setTimeout(function() {
-        //     $(".img2").fadeOut(1000, function() {
-        //         $(".img1").fadeIn(1000);
-        //     });
-        // }, 18000);
+        setTimeout(function() {
+            $(".img1").fadeOut(1000, function() {
+                $(".img2").fadeIn(1000);
+            });
+        }, 8000);
+        setTimeout(function() {
+            $(".img2").fadeOut(1000, function() {
+                $(".img1").fadeIn(1000);
+            });
+        }, 18000);
 
 
         // setTimeout(function() {
@@ -126,19 +126,19 @@
         // }, 28000);
 
 
-        // setInterval(function() {
-        //     $(".img1").fadeOut(1000, function() {
-        //         $(".img2").fadeIn(1000);
-        //     });
-        // }, 24000);
-        //
-        // setTimeout(function () {
-        //     setInterval(function() {
-        //         $(".img2").fadeOut(1000, function() {
-        //             $(".img1").fadeIn(1000);
-        //         });
-        //     },  24000);
-        // }, 10000);
+        setInterval(function() {
+            $(".img1").fadeOut(1000, function() {
+                $(".img2").fadeIn(1000);
+            });
+        }, 24000);
+
+        setTimeout(function () {
+            setInterval(function() {
+                $(".img2").fadeOut(1000, function() {
+                    $(".img1").fadeIn(1000);
+                });
+            },  24000);
+        }, 10000);
 
         // setTimeout(function () {
         //     setInterval(function() {
